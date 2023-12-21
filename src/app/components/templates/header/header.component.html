@@ -1,0 +1,27 @@
+<!-- <p-toolbar [style]="{'margin-top':'-8px'}"> -->
+    <div class="header" >
+        <p-toolbar styleClass= "my-toolbar" >
+            <div class="p-toolbar-group-left">
+                <img src="assets/imagens/logo.webp" class="logo">
+                <p-button label="New" icon="pi pi-plus"></p-button>
+                <p-button label="Upload" icon="pi pi-upload" styleClass="p-button-success"></p-button>
+        
+                <i class="pi pi-bars"></i>
+        
+                <!-- <p-splitButton label="Save" icon="pi pi-check" [model]="items" styleClass="p-button-warning"></p-splitButton> -->
+            </div>
+    
+            <div class="p-toolbar-group-right">
+    
+                <i class="pi pi-undo"></i>
+                <i>
+                    <app-cascade-select></app-cascade-select>
+                </i>
+                <i class="pi pi-bell"></i>
+                <i class="pi pi-flag"></i>
+                <i class="pi pi-user"></i>
+                <i class="pi pi-sign-out"></i>
+            </div>
+        </p-toolbar>
+     
+    </div>
